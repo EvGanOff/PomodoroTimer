@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E05CAED27581EC3007EC131 /* CALayer + CoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05CAEC27581EC3007EC131 /* CALayer + CoreKit.swift */; };
+		5E1B4E5E274B784D00AAEBB9 /* UILable + CoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B4E5D274B784D00AAEBB9 /* UILable + CoreKit.swift */; };
 		5E83205C2747EE5900870A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83205B2747EE5900870A18 /* AppDelegate.swift */; };
 		5E83205E2747EE5900870A18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83205D2747EE5900870A18 /* SceneDelegate.swift */; };
 		5E8320602747EE5900870A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83205F2747EE5900870A18 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		5E8320732747EE5A00870A18 /* PomodoroTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8320722747EE5A00870A18 /* PomodoroTimerTests.swift */; };
 		5E83207D2747EE5A00870A18 /* PomodoroTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83207C2747EE5A00870A18 /* PomodoroTimerUITests.swift */; };
 		5E83207F2747EE5A00870A18 /* PomodoroTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83207E2747EE5A00870A18 /* PomodoroTimerUITestsLaunchTests.swift */; };
+		5E83208C2747F0A900870A18 /* BezierCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83208B2747F0A900870A18 /* BezierCurves.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E05CAEC27581EC3007EC131 /* CALayer + CoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer + CoreKit.swift"; sourceTree = "<group>"; };
+		5E1B4E5D274B784D00AAEBB9 /* UILable + CoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable + CoreKit.swift"; sourceTree = "<group>"; };
 		5E8320582747EE5900870A18 /* PomodoroTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E83205B2747EE5900870A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E83205D2747EE5900870A18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		5E8320782747EE5A00870A18 /* PomodoroTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E83207C2747EE5A00870A18 /* PomodoroTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerUITests.swift; sourceTree = "<group>"; };
 		5E83207E2747EE5A00870A18 /* PomodoroTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E83208B2747F0A900870A18 /* BezierCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierCurves.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				5E83205B2747EE5900870A18 /* AppDelegate.swift */,
 				5E83205D2747EE5900870A18 /* SceneDelegate.swift */,
+				5E1B4E5D274B784D00AAEBB9 /* UILable + CoreKit.swift */,
+				5E05CAEC27581EC3007EC131 /* CALayer + CoreKit.swift */,
+				5E83208B2747F0A900870A18 /* BezierCurves.swift */,
 				5E83205F2747EE5900870A18 /* ViewController.swift */,
 				5E8320612747EE5900870A18 /* Main.storyboard */,
 				5E8320642747EE5A00870A18 /* Assets.xcassets */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8320602747EE5900870A18 /* ViewController.swift in Sources */,
+				5E05CAED27581EC3007EC131 /* CALayer + CoreKit.swift in Sources */,
+				5E1B4E5E274B784D00AAEBB9 /* UILable + CoreKit.swift in Sources */,
 				5E83205C2747EE5900870A18 /* AppDelegate.swift in Sources */,
+				5E83208C2747F0A900870A18 /* BezierCurves.swift in Sources */,
 				5E83205E2747EE5900870A18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +486,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
